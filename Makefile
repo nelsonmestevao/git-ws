@@ -48,14 +48,6 @@ lint:
 	@splint -retvalint -hints -I $(INC_DIR) \
 		$(SRC_DIR)/*
 
-check: LOG = $(LOG_DIR)/`date +%Y-%m-%d_%H:%M:%S`
-check: CFLAGS += -pg
-check: build
-	@memusage --data=$(LOG).dat --png=$(LOG).png $(BIN_DIR)/$(PROGRAM)
-	@gprof $(BIN_DIR)/$(PROGRAM) gmon.out > $(LOG).txt
-	@valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all \
-		--log-file=$(LOG).log ./$(BIN_DIR)/$(PROGRAM)
-
 debug: CFLAGS = -Wall -Wextra -ansi -pedantic -O0 -g
 debug: build
 	gdb ./$(BIN_DIR)/$(PROGRAM)
