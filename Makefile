@@ -40,9 +40,6 @@ fmt:
 	@echo "C and Headers files:"
 	@-clang-format -style="{BasedOnStyle: Google, IndentWidth: 4}" -verbose -i \
 		$(SRC_DIR)/* $(INC_DIR)/*
-	@echo ""
-	@echo "Shell files:"
-	@shfmt -l -w -i 2 .
 
 lint:
 	@splint -retvalint -hints -I $(INC_DIR) \
