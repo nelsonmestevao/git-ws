@@ -1,6 +1,8 @@
 # Git Workshop
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nelsonmestevao/git-ws)
+[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://bit.do/git-ws-gitpod)
+
+Check the [slides](http://bit.do/git-ws-slides).
 
 ## Local
 
