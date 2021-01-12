@@ -6,7 +6,7 @@ That's a tough question but thankfully, our team is on it. Please bear with us w
 
 {% api-method method="post" host="/api/v1/cakes/:id" path="" %}
 {% api-method-summary %}
-This is not cool
+This is cool
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -59,6 +59,8 @@ $$
 a = b^2 - \sqrt(20)
 $$
 
+{% page-ref page="./" %}
+
 | amazon | skdfja |
 | :--- | :--- |
 | sdkjf | fksj |
@@ -69,7 +71,11 @@ public main(String[] args)
 ```
 {% endcode %}
 
-{% hint style="danger" %}
+{% hint style="info" %}
 Atenção a esta merda.
 {% endhint %}
+
+1. sdfas
+2. sdaf
+3. a
 
