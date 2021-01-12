@@ -1,41 +1,81 @@
-# Git Workshop
+# Initial page
 
-[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://bit.do/git-ws-gitpod)
+## Can I become who I want to be?
 
-Check the [slides](http://bit.do/git-ws-slides).
+That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
 
-## Local
+{% api-method method="post" host="/api/v1/cakes/:id" path="" %}
+{% api-method-summary %}
+This is cool
+{% endapi-method-summary %}
 
-- `init`: initialize folder as git repo
-- `status`: see what is going on in the repo
-- `add`: put file(s) into staging area
-- `commit`: commit files from staging area (snapshot)
-- `diff`: looks at differences between commits
-- `log`: looking at all your previous messages
-  - `log --oneline`: get a one line representation of history
-- `HEAD`: where you are currently looking at
-- `checkout`: move your `HEAD` around
+{% api-method-description %}
+It's amazing
+{% endapi-method-description %}
 
-## Remotes
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
 
-- `remote`: somewhere your git repo is stored (e.g., GitHub)
-  - `origin`: the default you give your remote
-- `push`: sending local changes to remote
-- `pull`: receiving changes from remote
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
 
-## Branches
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
 
-- `branch <branch_name>`: create a new branch
-- `checkout <branch_name>`: move to that branch
-  - `checkout -b <branch_name>`: create and move at the same time
-- `branch -a`: see what branches we have
+{% endapi-method-response-example-description %}
 
-- `log --oneline --graph --decorate --all`: what is going on
+```
 
-- `branch -d`: delete a branch that was merged
-  - `branch -D`: force delete a branch that was *not* merged
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
-## Updating history
+## Have you had a chance to answer the previous question?
 
-- `rebase <branch_name>`: incorporate changes in `<branch_name>`, e.g., `master` into current branch, e.g., `project_template`
-  - You perform this command on the feature branch, not on `master`.
+Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+
+* [ ] kdsjafkas
+* [ ] kflsad
+
+{% tabs %}
+{% tab title="First Tab" %}
+Isto é fixe.
+{% endtab %}
+
+{% tab title="Second Tab" %}
+Mas nao sei
+{% endtab %}
+{% endtabs %}
+
+> Amazing
+
+$$
+a = b^2 - \sqrt(20)
+$$
+
+{% page-ref page="./" %}
+
+| amazon | skdfja |
+| :--- | :--- |
+| sdkjf | fksj |
+
+{% code title="Class.java" %}
+```java
+public main(String[] args)
+```
+{% endcode %}
+
+{% hint style="info" %}
+Atenção a esta merda.
+{% endhint %}
+
+1. sdfas
+2. sdaf
+3. a
+
